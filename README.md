@@ -5,6 +5,11 @@ Read the [disclaimer](#disclaimer).
 
 ## Kinesis Advantage2
 
+### Teardowns
+
+* KB600: [SmartSet controller](images/ka2-smartset.jpeg),
+  [KinT controller](images/ka2-kint.jpeg)
+
 ### Default controller
 
 The default logic board with the SmartSet 4MiB firmware uses an [Atmel
