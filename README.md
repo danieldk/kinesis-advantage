@@ -1,9 +1,7 @@
 # Kinesis Advantage
 
 This page summarizes some useful information about Kinesis Advantage keyboards.
-In contrast to an _Awesome XYZ_ lists, this is not simply a summary of links.
-
-Use the information on this page at your own risk. You cannot hold me responsible
+Read the [disclaimer](#disclaimer).
 
 ## Kinesis Advantage2
 
