@@ -66,3 +66,29 @@ people have used different solutions to this:
   wires, and isolate (e.g. using masking tape). Disadvantage: modification of
   the original cable, advantage: easier to do safely.
 
+## Keycaps
+
+By default, the Kinesis Advantage2 uses ABS keycaps. The keyboard usually comes
+with additional keycaps for Mac and non-Windows PCs (Linux). Most keycaps are
+standard OEM profile. Deskthority offers a nice [overview of the used keycaps
+](https://deskthority.net/wiki/Kinesis_Contoured#Keycaps). Kinesis also offers
+replacement sets:
+
+* [QWERTY](https://kinesis-ergo.com/shop/qwerty-keycap-set/)
+* [QWERTY + Dvorak](https://kinesis-ergo.com/shop/qwerty-dvorak-keycap-set/)
+* [Blank](https://kinesis-ergo.com/shop/blank-keycap-set/)
+* [Home row](https://kinesis-ergo.com/shop/colored-home-row-keycaps/)
+
+Some people dislike the feel of the ABS keycaps. Also, ABS keycaps wear down
+more easily and develop shine. keycaps.sh sells [replacement PBT
+keycaps](https://keycaps.sh) that are reportedly of a better quality (currently
+sold out). Kinesis now also offers PBT keycaps made for the Kinesis
+Advantage360, but are compatible with the Kinesis Advantage2 according to
+Kinesis:
+
+* [QWERTY](https://kinesis-ergo.com/shop/kc360-qw/)
+* [Dvorak](https://kinesis-ergo.com/shop/kc360-dv/)
+* [Blank](https://kinesis-ergo.com/shop/kc360-bk/)
+
+_I would love to hear experiences and get photos of a Kinesis Advantage2
+(or older) with the Kinesis PBT keycaps._
