@@ -49,10 +49,10 @@
     <ul class="current">
     <li class="toctree-l2"><a class="reference internal" href="#teardowns">Teardowns</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#default-controller">Default controller</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#alternative-controllers">Alternative controllers</a>
+    <li class="toctree-l2"><a class="reference internal" href="#controllers">Controllers</a>
         <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#smartset">SmartSet</a>
+    </li>
     <li class="toctree-l3"><a class="reference internal" href="#kint">KinT</a>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#kint-blackpill-edition">KinT Blackpill Edition</a>
@@ -97,18 +97,22 @@
 <a href="../images/ka2-smartset-controller.jpeg"><img alt="SmartSet controller close-up" src="../images/ka2-smartset-controller-small.jpeg" style="width:30%" /></a>
 <a href="../images/ka2-kint.jpeg"><img alt="KinT controller" src="../images/ka2-kint-small.jpeg" style="width:30%" /></a></p>
 <p><em>KB600 from left to right: SmartSet, SmartSet close-up, KinT</em></p>
-<h2 id="default-controller">Default controller</h2>
+<h2 id="controllers">Controllers</h2>
+<h3 id="smartset">SmartSet</h3>
 <p>The default logic board with the SmartSet 4MiB firmware uses an <a href="https://www.microchip.com/en-us/product/AT32UC3B0256">Atmel
 AT32UC3B0256</a>
-microcontroller.</p>
-<h2 id="alternative-controllers">Alternative controllers</h2>
-<p>The default SmartSet firmware supports key remappings, macros and even some
-support for tap-and-hold. However, the firmware has many limitations compared to
-popular open source firmwares like <a href="https://qmk.fm">QMK</a>. For instance, SmartSet
-on the KA2 only supports two layers. Some Advantage2 users replace the
-controller board to run open source firmware. Replacing the controller is fairly
-simple, since the key wells, thumb clusters, and function key rows connect to
-the logic board with removable ribbon cables.</p>
+microcontroller. The default SmartSet firmware supports key remappings, macros
+and even some support for tap-and-hold. The SmartSet firmware has three programming
+interfaces: (1) on-keyboard; (2) through the SmartSet software; and (3) through
+text files that describe rules. The last two methods require exporing the settings
+through the so-called V-Drive. The V-Drive exposes the settings as a virtual drive
+with the FAT filesystem.</p>
+<p>The SmartSet firmware has limitations compared to popular open source firmwares
+like <a href="https://qmk.fm">QMK</a>. For instance, SmartSet on the KA2 only supports two
+layers. Some Advantage2 users replace the controller board to run open source
+firmware. Replacing the controller is fairly simple, since the key wells, thumb
+clusters, and function key rows connect to the logic board with removable ribbon
+cables.</p>
 <h3 id="kint">KinT</h3>
 <p>The most popular alternative controller is the
 <a href="https://github.com/kinx-project/kint">KinT</a>. KinT and QMK support multiple
