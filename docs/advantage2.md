@@ -8,21 +8,25 @@
 
 *KB600 from left to right: SmartSet, SmartSet close-up, KinT*
 
-## Default controller
+## Controllers
+
+### SmartSet
 
 The default logic board with the SmartSet 4MiB firmware uses an [Atmel
 AT32UC3B0256](https://www.microchip.com/en-us/product/AT32UC3B0256)
-microcontroller.
+microcontroller. The default SmartSet firmware supports key remappings, macros
+and even some support for tap-and-hold. The SmartSet firmware has three programming
+interfaces: (1) on-keyboard; (2) through the SmartSet software; and (3) through
+text files that describe rules. The last two methods require exporing the settings
+through the so-called V-Drive. The V-Drive exposes the settings as a virtual drive
+with the FAT filesystem.
 
-## Alternative controllers
-
-The default SmartSet firmware supports key remappings, macros and even some
-support for tap-and-hold. However, the firmware has many limitations compared to
-popular open source firmwares like [QMK](https://qmk.fm). For instance, SmartSet
-on the KA2 only supports two layers. Some Advantage2 users replace the
-controller board to run open source firmware. Replacing the controller is fairly
-simple, since the key wells, thumb clusters, and function key rows connect to
-the logic board with removable ribbon cables.
+The SmartSet firmware has limitations compared to popular open source firmwares
+like [QMK](https://qmk.fm). For instance, SmartSet on the KA2 only supports two
+layers. Some Advantage2 users replace the controller board to run open source
+firmware. Replacing the controller is fairly simple, since the key wells, thumb
+clusters, and function key rows connect to the logic board with removable ribbon
+cables.
 
 ### KinT
 
