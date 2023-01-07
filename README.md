@@ -8,6 +8,7 @@ Read the [disclaimer](#disclaimer).
 ### Teardowns
 
 * KB600: [SmartSet controller](images/ka2-smartset.jpeg),
+  [SmartSet controller close-up](images/ka2-smartset-controller.jpeg),
   [KinT controller](images/ka2-kint.jpeg)
 
 ### Default controller
