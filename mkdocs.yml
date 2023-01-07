@@ -1,4 +1,6 @@
-site_name: Kinesis Advantage tidbits
+site_name: Kinesis Advantage Tidbits
+site_url: https://ka.danieldk.eu/
+repo_url: https://github.com/danieldk/kinesis-advantage/
 nav:
   - Home: index.md
   - Advantage2: advantage2.md
