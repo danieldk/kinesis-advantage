@@ -1,0 +1,8 @@
+site_name: Kinesis Advantage tidbits
+nav:
+  - Home: index.md
+  - Advantage2: advantage2.md
+  - Advantage360: advantage360.md
+theme: readthedocs
+markdown_extensions:
+  - attr_list
